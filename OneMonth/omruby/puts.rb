@@ -1,5 +1,5 @@
+#Linkin Park song One more Light lryics
 
-/Linkin Park song One more Light lryics/
 puts "Linkin Park One More Light"
 puts "Should've stayed, were there signs, I ignored?"
 puts "Can I help you, not to hurt, anymore?"
