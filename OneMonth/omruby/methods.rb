@@ -28,7 +28,7 @@ end
 
 age = add(20, 8)
 
-
+# you can leave out the return
 def subtract (a, b)
     puts "SUBTRACTING #{a} - #{b}"
     return a - b
@@ -45,7 +45,7 @@ def divide
 end
 
 
-
+# dont need () but sometimes you do with many numbers
 height = subtract(73, 4)
 weight = multiply(80, 2)
 iq = divide(100, 2)
