@@ -2,7 +2,7 @@
 <html>
 
 	<head>
-		<title>Oprah Likes You. And so do other people.</title>
+		<title>Drew Likes You. And so do other people.</title>
 
 		<style>
 			/* Basic CSS comment */
@@ -11,7 +11,7 @@
 				color: white;
 				width: 960px;
 				margin: 0 auto;
-				
+
 			}
 
 			h1 {
@@ -25,13 +25,13 @@
 			/* this is an event */
 			/* alert("I'm annoying"); */
 			//single line comment//
-		
+
 
 			var username = prompt("Hello, who are you?");
-
-			if(username==="Yaisa") {
-			document.write("<h1>Hello " + username + " you won a prize!</h1>");
-			} else{
+			var prize = new Array("candy", "milk", "apple");
+			if (username === "Yaisa") {
+				document.write("<h1>Hello " + username + " you won " + prize[0] + " !</h1>");
+			} else {
 				document.write("<h1>Hello " + username + " you don't win shyt! </h1>")
 			}
 
@@ -41,6 +41,7 @@
 	</head>
 
 	<body>
+		<img src="drew.jpg" alt="Drew from Prices is right">
 	</body>
 
 </html>
