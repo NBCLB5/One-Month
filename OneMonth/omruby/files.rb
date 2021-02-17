@@ -5,7 +5,7 @@ filename = gets.chomp
 puts open("filename").read
 
 # or 
-puts ope("rules.txt")
+puts open("rules.txt")
 
 #writing
 file = open(filename, w)

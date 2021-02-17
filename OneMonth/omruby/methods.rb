@@ -28,7 +28,7 @@ end
 
 age = add(20, 8)
 
-# you can leave out the return
+
 def subtract (a, b)
     puts "SUBTRACTING #{a} - #{b}"
     return a - b
@@ -45,9 +45,17 @@ def divide
 end
 
 
-# dont need () but sometimes you do with many numbers
-height = subtract(73, 4)
-weight = multiply(80, 2)
-iq = divide(100, 2)
+
+height = subtract 73, 4
+weight = multiply 80, 2
+iq = divide 100, 2
 
 puts "age: #{age}, height: #{height}, weight: #{weight}, iq: #{iq} "
+
+def capitalize_and_reverse(text)
+    capitalized_text = text.capitalize
+    capitalized_and_reversed_text = capitalized_text.reverse
+    return capitalized_and_reversed_text
+end
+
+puts "capitalized_and reversed_text"(is this right?)

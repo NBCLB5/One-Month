@@ -58,4 +58,4 @@ puts Linkin_Park_One_More_Light
 
 puts Linkin_Park_One_More_Light.reverse
 
-puts Linkin_Park_One_More_Light.upcase
+puts Linkin_Park_One_More_Light.uppercase
