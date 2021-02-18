@@ -1,0 +1,45 @@
+body {
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-image: url("../images/coffee.jpg");
+}
+#container{
+ background: black;
+ width: 600px;
+ color: white;
+ padding: 15px;
+ font-size: 18px;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+h2 {
+	background-color:#2274f0;
+	color: black;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+a {
+	color:#78b3dd;
+	text-decoration: none;
+    
+}
+
+.a1{
+    padding: 25px;
+    position: center;
+    font-size: 25px;
+    text-align: center;
+}
+
+#contact-links{
+    Padding:5px;
+}
