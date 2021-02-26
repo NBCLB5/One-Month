@@ -22,10 +22,24 @@ Developed @ One Month HTML class
 	clear: both;
 }
 
-img{
-     float:right;
+
+.alignleft{
+float:left;
+margin:0 15px 15px 0;
 }
 
+.alignright{
+     float:right;
+     margin:0 0 15px 15px;
+}
+
+.blue{
+     color:blue;
+}
+
+.red{
+     color:red;
+}
 
 /*----------------------------------------------------------------------------- 
 =02 LAYOUT 
