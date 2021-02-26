@@ -1,7 +1,7 @@
 /*
 Project Name: Column Layout
-Author: Chris Castiglione @ onemonthhtml.com
-Developed @ One Month in NYC
+Author: Nathan Banek @ onemonthhtml.com
+Developed @ One Month HTML class
 */
 
 
@@ -27,5 +27,32 @@ Developed @ One Month in NYC
 /*----------------------------------------------------------------------------- 
 =02 LAYOUT 
 -----------------------------------------------------------------------------*/
+#container{
+width:1000px;
+margin: 0 auto 0 auto;
+}
 
+#header{
+background-color:silver;
+padding:50px;
+}
 
+#main{
+background-color:skyblue;
+padding:50px;
+width:700px;
+float: left;
+
+}
+#sidebar{
+background-color: pink;
+width:300px;
+float: left;
+padding:50px;
+}
+
+#footer{
+background-color: peachpuff;
+padding:50px;
+
+}
