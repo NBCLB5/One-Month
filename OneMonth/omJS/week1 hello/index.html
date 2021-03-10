@@ -1,3 +1,6 @@
+<!--prize page for One Month week 1 Javascript basic by Nathan Banek
+type Jim to win a prize -->
+
 <!DOCTYPE html>
 <html>
 
@@ -15,24 +18,45 @@
 			}
 
 			h1 {
-				font-size: 80px;
+				font-size: 50px;
 				color: #333;
+			}
+
+			.img {
+				width: 50%;
+				height: 500px;
+				float: left;
+				border-radius: 60%;
+			}
+
+			.prize {
+				width: 50%;
+				height: 500px;
+				float: left;
+				border-radius: 60%;
 			}
 
 		</style>
 
 		<script>
-			/* this is an event */
-			/* alert("I'm annoying"); */
-			//single line comment//
+
+			var username = prompt("Hello, what was the actors first name who played Lloyd in the movie Dumb and Dumber?");
+			var prize = [
+				" a new Car",
+				" a new Boat",
+				" a Trip of a life time"
+			];
+			
+
+			var randomNumber = Math.floor(Math.random()*prize.length);
+			
+			var prizename = prize[randomNumber];
 
 
-			var username = prompt("Hello, who are you?");
-			var prize = new Array("candy", "milk", "apple");
-			if (username === "Yaisa") {
-				document.write("<h1>Hello " + username + " you won " + prize[0] + " !</h1>");
+			if (username === "Jim") {
+				document.write("<h1>You guessed " + username + " and that is correct! You just won " + prizename + " !</h1>");
 			} else {
-				document.write("<h1>Hello " + username + " you don't win shyt! </h1>")
+				document.write("<h1>Sorry, " + username + " is not the right answer, try again. </h1>")
 			}
 
 		</script>
@@ -41,7 +65,8 @@
 	</head>
 
 	<body>
-		<img src="drew.jpg" alt="Drew from Prices is right">
+		<img class="img" src="drew.jpg" alt="Drew from Price is right">
+		
 	</body>
 
 </html>
