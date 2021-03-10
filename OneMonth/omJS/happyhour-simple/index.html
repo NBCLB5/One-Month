@@ -1,0 +1,57 @@
+<!--randomizer project for
+	 One Month Javascript Basic Week 1 lesson 12 (happy hour)
+	 by Nathan Banek-->
+
+
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Happy Hour App - How about a drink!?">
+		<meta name="keywords" content="happy hour, drink, beers">
+
+		<title>Let's go for a hike?</title>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<script>
+		
+			// Our List of Bars
+			var hikes = [
+				'Dead Horse Canyon',
+				'Ghost Mountain',
+				'Snake Ridge',
+				'Owl Pellet Trail',
+				'Sunset trail',
+				'Cross Mountain',
+				'sunny creek'
+			];
+
+			// Our List of Friends
+			var friends = [
+				'Doc',
+				'Grumpy',
+				'Happy',
+				'Sleepy',
+				'Bashful',
+				'Sneezy',
+				'Dopey'
+			];
+
+
+			var randomNumber = Math.floor(Math.random()*hikes.length);
+			
+			var hikename = hikes[randomNumber];
+			var friendname = friends[randomNumber];
+
+			document.write("How about you go on a hike to <strong>" + hikename + "</strong> with <strong>" + friendname + "</strong>?");
+		
+		</script>
+	</head>
+	<body>
+		<h1>Do you want to go on a hike?</h1>
+	</body>
+</html>
