@@ -44,19 +44,24 @@ type Jim to win a prize -->
 			var prize = [
 				" a new Car",
 				" a new Boat",
-				" a Trip of a life time"
+				" a Trip around the World"
+			];
+			var prizePictures = [
+				'ferrari.jpg',
+				'boat.jpg',
+				'trip.jpg'
 			];
 			
 
-			var randomNumber = Math.floor(Math.random()*prize.length);
+			var randomPrize = Math.floor(Math.random()*prize.length);
 			
-			var prizename = prize[randomNumber];
-
-
+			
 			if (username === "Jim") {
-				document.write("<h1>You guessed " + username + " and that is correct! You just won " + prizename + " !</h1>");
+				document.write("<h1>You guessed " + username + " and that is correct! You just won " + prize[randomPrize] + " !</h1>");
+			document.write("<img src=\"" + prizePicture[randomPrize] +"\">")
+
 			} else {
-				document.write("<h1>Sorry, " + username + " is not the right answer, try again. </h1>")
+				document.write("<h1>Sorry, " + username + " is not the right answer, try again. </h1>") 
 			}
 
 		</script>
