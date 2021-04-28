@@ -1,0 +1,32 @@
+<!--Week2 of JavaScript class with OneMonth hello Mr. JavaScript by Nathan Banek-->
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mr. JavaScript</title>
+    </head>
+
+    <body>
+        <h1 id="mr-javascript"> I'm Mr. JvaScript</h1>
+        <a href="#" id="anchor">Hey JavaScript, how ya feeling?</a>
+
+        <script>
+//to grab html run console.log(document.querySelector("h1"));
+
+            var anchor = document.getElementById('anchor')
+            anchor.addEventListener('click', function () {
+
+                //alert ("I'm so goooood!")
+                var name = document.getElementById('mr-javascript');
+                //cocnsole.log(name)
+                name.innerHTML = "Not good bah!";
+
+            });
+
+        </script>
+    </body>
+
+</html>
